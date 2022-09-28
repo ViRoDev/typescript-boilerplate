@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "tsc src/main.ts",
+    "build": "tsc",
     "start": "node dist/main.js",
     "dev": "yarn build && yarn start",
     "lint": "eslint . --ext .ts",
