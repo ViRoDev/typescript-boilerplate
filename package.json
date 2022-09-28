@@ -1,0 +1,28 @@
+{
+  "name": "new-project",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc src/main.ts",
+    "start": "node dist/main.js",
+    "dev": "yarn build && yarn start",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "keywords": [],
+  "author": "ViRoDev",
+  "license": "bsd-3-clause",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^18.7.13",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "ts": "^0.0.0",
+    "typescript": "^3.9.10"
+  }
+}
