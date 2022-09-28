@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "ViRoDev",
-  "license": "bsd-3-clause",
+  "license": " BSD-3-Clause",
   "dependencies": {},
   "devDependencies": {
     "@types/node": "^18.7.13",
